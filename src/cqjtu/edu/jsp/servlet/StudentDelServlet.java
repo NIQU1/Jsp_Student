@@ -27,6 +27,7 @@ public class StudentDelServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println("welcome");
 		String no = request.getParameter("no");
 		int i=stuOper.deleteStudent(Integer.parseInt(no));
 		JSONObject json = new JSONObject();

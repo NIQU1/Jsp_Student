@@ -15,6 +15,7 @@ import cqjtu.edu.studentadmin.entity.Student;
 
 public class DatabaseOperation {
     public Connection getConn() {
+    	System.out.println("welcome");
     	Connection conn=null;
     	String driverName="com.mysql.cj.jdbc.Driver";
 		String dbUrl="jdbc:mysql://localhost:3306/studentadmin?&useSSL=false&serverTimezone=UTC";

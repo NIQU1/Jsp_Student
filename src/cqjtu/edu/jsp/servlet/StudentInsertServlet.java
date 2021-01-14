@@ -27,6 +27,7 @@ public class StudentInsertServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("welcome");
 		String name=request.getParameter("name");
 		String age=request.getParameter("age");
 		String no=request.getParameter("no");

@@ -25,7 +25,7 @@ public class LoginServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		System.out.println("鍙槸GET鏂规硶");
+		System.out.println("welcome");
 		String name=request.getParameter("userName");
 		String password=request.getParameter("password");
 		System.out.println("用户名"+name);

@@ -29,6 +29,7 @@ public class StudentQuery extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println("welcome");
 		String key = request.getParameter("key");
 		JSONObject json = new JSONObject();
 		List<Student> students = stuOper.searchStudent(key);

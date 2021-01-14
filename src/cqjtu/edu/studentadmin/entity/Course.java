@@ -2,7 +2,7 @@ package cqjtu.edu.studentadmin.entity;
 
 public class Course extends Root{
 	
-	//�γ̵�ѧ��
+	
 	private double score;
 	
 	public Course(int no,String name,double score){

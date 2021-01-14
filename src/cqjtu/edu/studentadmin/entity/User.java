@@ -13,7 +13,7 @@ public class User {
 	public void setNo(int no) {
 		this.no = no;
 	}
-
+//
 	public String getUserName() {
 		return userName;
 	}
